@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.ooshybooshy-hn-app"
+        versionCode = "1"
+        version     = "1.0" >
+
+	<name>ooshybooshy</name>
+
+	<description>OoshyBooshy &#124; Indian Craft Blog Hello folks!! I am Anjali, an architect by profession and a craftohlic by heart. &#8216;OoshyBooshy&#8217; is a platform where I am unboxing my ideas, my thoughts and all those little things for which I am passionate about. It is a place where I enjoy working, enjoying every bit of it. A little more about me: I love exploring beautiful places, eating delicious food, and spending time with my loved ones. I live in Delhi &#8220;in my solitude&#8221;. What I mean to say is I love occupied with my own things and currently living life in a healthy solitude. I hope that you will join me on this journey and support me as I am unfolding some of my good and bad experiences here. I am thankful to each and every one of you who spend the time to read my blog. THANKYOU</description>
+
+	<author href="http://hooknot.com" email="info@hooknot.com">Hooknot</author>
+
+	<gap:platform name="android" />
+	
+	<!-- General preferences -->
+	<preference name="buildArchitecture" value="arm" />
+	<preference name="xwalkMultipleApk" value="true" />
+	<preference name="android-build-tool" value="gradle" />
+
+	<preference name="phonegap-version" value="0.4.5" />
+	<preference name="permissions" value="none"/>
+
+	<preference name="disallowOverscroll" value="true" />
+	<preference name="webviewbounce" value="false" />
+
+	<!-- PhoneGap plugin declaration -->
+	<plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<plugin name="cordova-plugin-network-information" source="npm" />
+	<plugin name="cordova-plugin-whitelist" source="npm" />
+	<plugin name="cordova-plugin-splashscreen" source="npm" />
+	<plugin name="cordova-plugin-device" source="npm" />
+	<plugin name="cordova-plugin-statusbar" source="npm" />
+	<plugin name="cordova-plugin-crosswalk-webview" spec="2.3.0" source="npm" />
+	<plugin name="cordova-build-architecture" spec="https://github.com/MBuchalik/cordova-build-architecture.git#v1.0.1" source="git" />
+
+	<!-- Whitelist policy  -->
+	<access origin="*" />
+	<allow-intent href="*" />
+	<allow-navigation href="*" />
+
+	<!-- SplashScreen configuration -->
+	<preference name="SplashScreen" value="splash" />
+	<preference name="SplashScreenDelay" value="10000" />
+	<preference name="FadeSplashScreenDuration" value="300" />
+	<preference name="ShowSplashScreenSpinner" value="false" />
+
+	<!-- Icons and Splashscreens declaration -->
+</widget>
